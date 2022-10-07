@@ -1,1 +1,1 @@
-[click](https://github.com/xdgtweb/Lauvid/public_html/html/index.html)
+https://xdgtweb.github.io/Lauvid/public_html/html/index.html
