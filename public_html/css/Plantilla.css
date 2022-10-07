@@ -1,0 +1,198 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 oct 2022, 16:48:21
+    Author     : xxxdd
+*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: #ff3d00;
+}
+
+body #contenido
+{
+/*    border: blueviolet 3px solid;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 150px; /* desplaza el main */
+    padding-top: 2%; /* margenes visuales */
+    padding-bottom: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+
+body #contenido main
+{
+    border-bottom: #3333ff 10px solid;
+    border-top: #3333ff 10px solid;
+    border-right: #3333ff 10px solid;
+    padding: 10px;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+body #contenido main::-webkit-scrollbar
+{
+    display: none;
+}
+
+body #barraNav
+{
+    background: #ff3d00;
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    text-align: center;
+    z-index: 1;
+/*    float: left;*/
+}
+
+body #barraNav header
+{
+    background: red;
+    display: inline-block;
+    position: static;
+    font-size: 0;
+    padding: 15px;
+}
+
+body #barraNav nav a ul li:hover
+{
+    background: aqua;
+}
+
+body #contenido footer
+{
+    border: greenyellow 3px solid;
+}
+
+body #contenido footer h4
+{
+    font-size: 14px;
+    color: black;
+}
+
+body #barraNav nav img
+{
+    display: none;
+}
+
+@media only screen and (max-width: 820px)
+{
+    
+}
+
+@media only screen and (max-width: 590px)
+{
+    body
+    {
+        background: #ff3d00;
+    }
+
+    body #contenido
+    {
+        /*    border: blueviolet 3px solid;*/
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding-top: 60px; /* desplaza el main */
+        padding-bottom: 2%; /* margenes visuales */
+        padding-right: 2%;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+
+    body #contenido main
+    {
+        border-bottom: #3333ff 10px solid;
+        border-top: #3333ff 0px solid;
+        border-right: #3333ff 10px solid;
+        border-left: #3333ff 10px solid;
+        padding: 10px;
+        overflow-x: scroll;
+        box-sizing: border-box;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        background: white;
+    }
+
+    body #contenido main::-webkit-scrollbar
+    {
+        display: none;
+    }
+
+    body #barraNav
+    {
+        background: #ff3d00;
+        position: absolute;
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        /*    float: left;*/
+    }
+
+    body #barraNav header
+    {
+        background: gray;
+        display: inline-block;
+        position: static;
+        font-size: 0;
+        padding: 10px;
+    }
+
+    body #barraNav nav a ul li:hover
+    {
+        background: aqua;
+    }
+
+    body #contenido footer
+    {
+        border: greenyellow 3px solid;
+    }
+
+    body #contenido footer h4
+    {
+        font-size: 14px;
+        color: black;
+    }
+    
+    body #barraNav nav img
+    {
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    body #barraNav nav
+    {
+        left: 50%;
+        transform: translate(-50%, 0%);
+        /* -webkit-transform: translate(-50%, -50%); */
+        position: fixed;
+        bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 7px;
+        word-wrap: break-word;
+        background-color: #66ffff;
+        border-radius: 7px;
+        font-size: 0;
+        transition: 0.3s;
+    }
+}
