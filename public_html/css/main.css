@@ -18,7 +18,7 @@ body #contenido main
     border-radius: 30px;
     width: 100%;
     height: 100%;
-    background: white;
+    background: #ffff99;
 }
 
 body #contenido main::-webkit-scrollbar
@@ -41,7 +41,6 @@ body #contenido main::-webkit-scrollbar
         border-radius: 30px;
         width: 100%;
         height: 100%;
-        background: white;
     }
     
 }

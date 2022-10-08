@@ -1,0 +1,80 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 8 oct 2022, 19:42:56
+    Author     : xxxdd
+*/
+
+body #contenido main h1
+{
+    font-size: 30px;
+    color: black;
+    font-family: tituloMain;
+    position: fixed;
+    left: 50%;
+    transform: translate(0%, 0%);
+    /* -webkit-transform: translate(-50%, -50%); */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    font-size: 30px;
+}
+
+body #contenido main #imagenes
+{
+    font-size: 0;
+    text-align: center;
+    padding-top: 40px;
+}
+
+body #contenido main #imagenes .grupoImgText
+{
+    display: inline-block;
+}
+
+body #contenido main #imagenes .grupoImgText img
+{
+    margin: 3px;
+
+}
+
+@font-face 
+{
+    font-family: chococooky;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fuentes/chococooky/Chococooky.ttf);
+}
+
+@font-face 
+{
+    font-family: tituloMain;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fuentes/bongkar/Bongkar.ttf);
+}
+
+@media only screen and (max-width: 590px)
+{
+
+    body #contenido main h1
+    {
+        font-size: 30px;
+        color: black;
+        font-family: tituloMain;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        /* -webkit-transform: translate(-50%, -50%); */
+        position: fixed;
+        top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 7px;
+        word-wrap: break-word;
+        border-radius: 7px;
+        width: 161px;
+    }
+
+}
