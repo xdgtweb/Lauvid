@@ -15,7 +15,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 body
 {
-    background: #333333;
+    background: url("../imagenes/fondosAnimados/29.gif");
+/*/*    background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center center;
 }
 
 body #contenido
@@ -38,7 +41,10 @@ body #contenido main::-webkit-scrollbar
 
 body #barraNav
 {
-    background: #333333;
+    background: url("../imagenes/fondosAnimados/29.gif");
+/*/*    background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center center;
     position: absolute;
     height: 100%;
     width: 150px;
@@ -49,7 +55,7 @@ body #barraNav
 
 body #barraNav header
 {
-    background: #333333;
+    background: transparent;
     display: inline-block;
     position: static;
     font-size: 0;
