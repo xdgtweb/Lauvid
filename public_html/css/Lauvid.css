@@ -7,6 +7,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : xxxdd
 */
 
+body iframe
+{
+    left: 50%;
+    transform: translate(-50%, 0%);
+    /* -webkit-transform: translate(-50%, -50%); */
+    position: fixed;
+    bottom: 15px;
+    word-wrap: break-word;
+    border-radius: 7px;
+    font-size: 0;
+    transition: 0.3s;
+}
+
 body #contenido main h1 /* titulo */
 {
     font-size: 30px;
